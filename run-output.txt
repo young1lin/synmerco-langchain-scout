@@ -1,0 +1,78 @@
+  Registry: 56 tools loaded
+# search_agents capability='coding' (up to 3)
+[
+  {
+    "agentDid": "did:pkh:eip155:8453:0x98c2165722D94D54c23c62c20A71CBbdB1DAFFcA",
+    "synmercoScore": 33,
+    "tier": "New",
+    "capabilities": [
+      "research",
+      "technical_writing",
+      "coding",
+      "analysis",
+      "translation",
+      "documentation"
+    ]
+  },
+  {
+    "agentDid": "did:pkh:eip155:137:0xEC5275D5b03bc390FcA63D902d0B2D0Db2eb5573",
+    "synmercoScore": 30,
+    "tier": "New",
+    "capabilities": [
+      "general",
+      "data-analysis",
+      "research",
+      "code_review",
+      "coding",
+      "security-review",
+      "live-data",
+      "marketing",
+      "writing",
+      "documentation",
+      "translation",
+      "browser",
+      "github",
+      "wallet",
+      "web_audit"
+    ]
+  },
+  {
+    "agentDid": "did:pkh:eip155:8453:0x0e69147C00b2BCC7092d4c0b9668f302B9EE36Cb",
+    "synmercoScore": 28,
+    "tier": "New",
+    "capabilities": [
+      "research",
+      "content-writing",
+      "web-testing",
+      "qa",
+      "automation",
+      "data-analysis",
+      "coding"
+    ]
+  }
+]
+
+# lookup_trust_score did=did:pkh:eip155:8453:0x98c2165722D94D54c23c62c20A71CBbdB1DAFFcA
+{
+  "did": "did:pkh:eip155:8453:0x98c2165722D94D54c23c62c20A71CBbdB1DAFFcA",
+  "synmercoScore": 33,
+  "tier": "New"
+}
+
+# estimate_fees amount=10000 (100 USD)
+{
+  "currency": "USD",
+  "grossCents": 10000,
+  "feeCents": 325,
+  "feeBps": 325,
+  "feePercent": "3.25%",
+  "tierName": "Standard",
+  "referrerEligibleBps": 25,
+  "shieldBps": 25,
+  "netToSellerCents": 9675,
+  "savings": {
+    "vs_paycrow": "25 cents saved",
+    "vs_stripe": "115 cents saved",
+    "vs_marketplace": "325 cents saved"
+  }
+}
